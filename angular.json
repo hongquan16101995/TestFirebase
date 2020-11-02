@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "test-filebase"
+    }
+  },
+  "defaultProject": "test-filebase",
+  "cli": {
+    "analytics": "512d6cce-651d-41d6-b2ec-213f02c73fe2"
+  }
 }

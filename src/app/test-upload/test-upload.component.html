@@ -1,0 +1,6 @@
+<h1>Avatar</h1>
+<input type="file" #fileUpload (change)="showPre($event)">
+<img [src]="imgSrc" height="125" width="100" (click)="fileUpload.click()">
+<audio controls>
+  <source [src]="imgSrc" type="audio/mpeg">
+</audio>
